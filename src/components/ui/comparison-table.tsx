@@ -1,18 +1,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Check, X, Crown } from "lucide-react";
+import { Check, X, Crown, Book } from "lucide-react";
 import { useInView } from "@/hooks/use-in-view";
 
 const comparisonData = [
-  { feature: "Vade Mecum", free: "2025", premium: "2025 completo" },
-  { feature: "Assistente IA", free: false, premium: true },
-  { feature: "Livros jurídicos", free: "50", premium: "400+" },
-  { feature: "Petições", free: "1k", premium: "30k+" },
-  { feature: "Vídeo-aulas", free: "50", premium: "500+" },
-  { feature: "Flashcards", free: "1k", premium: "8k+" },
-  { feature: "Simulado OAB", free: "Básico", premium: "Completo" },
+  { feature: "Biblioteca de livros", free: "50 livros", premium: "500+ livros" },
+  { feature: "Leitura no computador", free: false, premium: true },
   { feature: "Download offline", free: false, premium: true },
+  { feature: "Sem anúncios", free: false, premium: true },
+  { feature: "Marcadores", free: "Limitado", premium: "Ilimitado" },
+  { feature: "Busca avançada", free: "Básica", premium: "IA completa" },
+  { feature: "Formatos suportados", free: "PDF", premium: "PDF + EPUB" },
+  { feature: "Sincronização", free: false, premium: true },
   { feature: "Suporte", free: "Email", premium: "24/7" }
 ];
 
@@ -57,11 +57,11 @@ export const ComparisonTable = () => {
                 Premium
               </CardTitle>
               <div className="flex items-center justify-center gap-2">
-                <span className="text-sm text-muted-foreground line-through">R$ 79,90</span>
+                <span className="text-sm text-muted-foreground line-through">R$ 17,99</span>
                 <Badge className="bg-destructive text-destructive-foreground text-xs">50% OFF</Badge>
               </div>
-              <div className="text-3xl font-bold text-gold">R$ 39,90</div>
-              <p className="text-gold/80 text-sm">Pagamento único - Sem mensalidade!</p>
+              <div className="text-3xl font-bold text-gold">R$ 8,99</div>
+              <p className="text-gold/80 text-sm">Acesso vitalício - Sem anúncios!</p>
             </CardHeader>
             <CardContent className="space-y-2">
               {comparisonData.map((item, index) => (
@@ -81,8 +81,8 @@ export const ComparisonTable = () => {
                   window.open('https://play.google.com/store/apps/details?id=br.com.app.gpu2994564.gpub492f9e6db037057aaa93d7adfa9e3e0', '_blank');
                 }}
               >
-                <Crown className="h-4 w-4 mr-2" />
-                Adquirir Agora
+                <Book className="h-4 w-4 mr-2" />
+                Garantir Acesso Vitalício
               </Button>
               <p className="text-center text-xs text-gold/70 mt-2">
                 7 dias de garantia

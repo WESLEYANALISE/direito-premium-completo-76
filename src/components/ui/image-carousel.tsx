@@ -33,7 +33,7 @@ export const ImageCarousel = () => {
                   <img 
                     src={image.src} 
                     alt={image.alt}
-                    className="w-full h-48 object-cover"
+                    className="w-full h-auto aspect-[2/3] object-cover"
                   />
                 </div>
               </div>
