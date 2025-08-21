@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Scale, Crown, Star } from "lucide-react";
+import { Book, Crown, Star } from "lucide-react";
 import { useInView } from "@/hooks/use-in-view";
 import { ImageCarousel } from "@/components/ui/image-carousel";
 import heroBackground from "@/assets/hero-background.jpg";
@@ -42,7 +42,7 @@ export const HeroSection = () => {
           }`}
         >
           <div className="p-2 bg-gradient-premium rounded-lg shadow-gold">
-            <Scale className="h-6 w-6 text-background" />
+            <Book className="h-6 w-6 text-background" />
           </div>
           <Badge variant="outline" className="px-3 py-1 text-gold border-gold/30 bg-background/20 text-sm">
             <Crown className="h-3 w-3 mr-1" />
@@ -79,8 +79,8 @@ export const HeroSection = () => {
               <Badge className="bg-destructive text-destructive-foreground text-xs">50% OFF</Badge>
             </div>
             <div className="text-3xl font-bold text-gold">R$ 8,99</div>
-            <p className="text-xs text-muted-foreground">pagamento único</p>
-            <p className="text-xs text-gold font-medium mt-1">🔥 Sem mensalidade!</p>
+            <p className="text-xs text-muted-foreground">acesso vitalício</p>
+            <p className="text-xs text-gold font-medium mt-1">🔥 Sem anúncios!</p>
           </div>
 
           {/* Trust indicators */}
@@ -109,8 +109,8 @@ export const HeroSection = () => {
               window.open('https://play.google.com/store/apps/details?id=br.com.app.gpu2994564.gpub492f9e6db037057aaa93d7adfa9e3e0', '_blank');
             }}
           >
-            <Crown className="h-5 w-5 mr-2" />
-            Garantir Acesso Premium
+            <Book className="h-5 w-5 mr-2" />
+            Garantir Acesso Vitalício
           </Button>
 
           {/* Guarantee */}

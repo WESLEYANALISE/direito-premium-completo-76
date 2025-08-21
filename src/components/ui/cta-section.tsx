@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Crown, Shield, Clock, Zap } from "lucide-react";
+import { Crown, Shield, Clock, Zap, Book } from "lucide-react";
 import { useInView } from "@/hooks/use-in-view";
 
 export const CTASection = () => {
@@ -45,9 +45,9 @@ export const CTASection = () => {
             </Badge>
           </div>
           <div className="text-4xl font-bold text-gold mb-1">R$ 8,99</div>
-          <p className="text-sm text-muted-foreground mb-2">pagamento único</p>
+          <p className="text-sm text-muted-foreground mb-2">acesso vitalício</p>
           <p className="text-sm text-gold font-bold mb-2">
-            🔥 SEM MENSALIDADE!
+            🔥 SEM ANÚNCIOS!
           </p>
           <p className="text-xs text-destructive font-medium">
             Promoção termina em breve!
@@ -63,8 +63,8 @@ export const CTASection = () => {
             window.open('https://play.google.com/store/apps/details?id=br.com.app.gpu2994564.gpub492f9e6db037057aaa93d7adfa9e3e0', '_blank');
           }}
         >
-          <Crown className="h-5 w-5 mr-2" />
-          Garantir Vaga Premium
+          <Book className="h-5 w-5 mr-2" />
+          Garantir Acesso Vitalício
         </Button>
 
         {/* Benefits Quick List */}

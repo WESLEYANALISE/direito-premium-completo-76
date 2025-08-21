@@ -26,52 +26,52 @@ import {
 
 const features = [
   {
-    icon: BookOpen,
-    title: "Vade Mecum 2025",
-    description: "Sempre atualizado",
-    highlight: "Novo"
-  },
-  {
-    icon: MessageSquare,
-    title: "Assistente IA",
-    description: "WhatsApp + App",
-    highlight: "IA"
-  },
-  {
-    icon: Monitor,
-    title: "Acesso Desktop",
-    description: "Computador",
-    highlight: "Web"
-  },
-  {
     icon: Library,
-    title: "400+ Livros",
+    title: "500+ Livros",
     description: "Biblioteca completa",
     highlight: "Premium"
   },
   {
-    icon: FileSignature,
-    title: "30k+ Petições",
-    description: "Modelos prontos",
-    highlight: "Top"
+    icon: Monitor,
+    title: "Leitura no PC",
+    description: "Computador + Mobile",
+    highlight: "Multi"
   },
   {
-    icon: Play,
-    title: "500+ Vídeos",
-    description: "Aulas completas",
-    highlight: "HD"
+    icon: BookOpen,
+    title: "Sem Anúncios",
+    description: "Experiência limpa",
+    highlight: "Clean"
   },
   {
-    icon: Brain,
-    title: "8k+ Flashcards",
-    description: "Memorização",
+    icon: Download,
+    title: "Download Offline",
+    description: "Leia sem internet",
+    highlight: "Offline"
+  },
+  {
+    icon: BookMarked,
+    title: "Marcadores",
+    description: "Salve suas páginas",
     highlight: "Smart"
   },
   {
+    icon: FileText,
+    title: "PDF + EPUB",
+    description: "Múltiplos formatos",
+    highlight: "PDF"
+  },
+  {
+    icon: Brain,
+    title: "Busca Inteligente",
+    description: "Encontre qualquer conteúdo",
+    highlight: "IA"
+  },
+  {
     icon: CheckCircle,
-    title: "Simulado OAB",
-    description: "Aprovação garantida",
-    highlight: "OAB"
+    title: "Acesso Vitalício",
+    description: "Pague uma vez só",
+    highlight: "Life"
   }
 ];
 
@@ -154,16 +154,16 @@ export const FeaturesSection = () => {
           }`}
         >
           <div>
-            <div className="text-2xl font-bold text-gold">400+</div>
+            <div className="text-2xl font-bold text-gold">500+</div>
             <div className="text-xs text-muted-foreground">Livros</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-gold">30k+</div>
-            <div className="text-xs text-muted-foreground">Petições</div>
+            <div className="text-2xl font-bold text-gold">100%</div>
+            <div className="text-xs text-muted-foreground">Sem Ads</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-gold">98%</div>
-            <div className="text-xs text-muted-foreground">Aprovação</div>
+            <div className="text-2xl font-bold text-gold">Vitalício</div>
+            <div className="text-xs text-muted-foreground">Acesso</div>
           </div>
         </div>
       </div>

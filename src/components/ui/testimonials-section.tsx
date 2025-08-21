@@ -5,25 +5,25 @@ import { useInView } from "@/hooks/use-in-view";
 
 const testimonials = [
   {
-    name: "Dra. Marina Santos",
-    profession: "Advogada",
+    name: "Ana Clara",
+    profession: "Estudante de Literatura",
     rating: 5,
-    text: "Passei na OAB no primeiro exame. Os simulados e flashcards foram essenciais!",
-    avatar: "MS"
+    text: "Mais de 500 livros na palma da mão! Consigo ler no celular e no computador.",
+    avatar: "AC"
   },
   {
-    name: "Carlos Silva",
-    profession: "Estudante 8º período",
+    name: "João Santos",
+    profession: "Professor",
     rating: 5,
-    text: "30k+ petições economizam horas do meu trabalho. Vale cada centavo!",
-    avatar: "CS"
+    text: "Sem anúncios e com acesso vitalício. Melhor investimento que fiz!",
+    avatar: "JS"
   },
   {
-    name: "Dr. Roberto Lima",
-    profession: "Juiz de Direito",
+    name: "Maria Oliveira",
+    profession: "Leitora apaixonada",
     rating: 5,
-    text: "Portal de notícias me mantém sempre atualizado. Ferramenta indispensável.",
-    avatar: "RL"
+    text: "Biblioteca gigantesca, funciona offline. Não consigo mais viver sem!",
+    avatar: "MO"
   }
 ];
 
@@ -43,10 +43,10 @@ export const TestimonialsSection = () => {
           }`}
         >
           <Badge className="mb-3 bg-gold/10 text-gold border-gold/30">
-            APROVADOS
+            LEITORES SATISFEITOS
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-premium bg-clip-text text-transparent">
-            Quem já passou
+            Quem já lê conosco
           </h2>
         </div>
 
@@ -104,15 +104,15 @@ export const TestimonialsSection = () => {
         >
           <div>
             <div className="text-2xl font-bold text-gold">50k+</div>
-            <div className="text-xs text-muted-foreground">Usuários</div>
+            <div className="text-xs text-muted-foreground">Leitores</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-gold">4.8★</div>
+            <div className="text-2xl font-bold text-gold">4.9★</div>
             <div className="text-xs text-muted-foreground">Avaliação</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-gold">98%</div>
-            <div className="text-xs text-muted-foreground">Aprovação</div>
+            <div className="text-2xl font-bold text-gold">500+</div>
+            <div className="text-xs text-muted-foreground">Livros</div>
           </div>
         </div>
       </div>

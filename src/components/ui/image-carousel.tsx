@@ -27,7 +27,7 @@ export const ImageCarousel = () => {
       <Carousel className="w-full max-w-4xl mx-auto">
         <CarouselContent>
           {carouselImages.map((image, index) => (
-            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            <CarouselItem key={index} className="basis-1/3">
               <div className="p-2">
                 <div className="bg-card rounded-lg overflow-hidden shadow-card border border-border hover-scale">
                   <img 
