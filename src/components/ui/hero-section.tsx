@@ -58,11 +58,11 @@ export const HeroSection = () => {
           }`}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-3 bg-gradient-premium bg-clip-text text-transparent leading-tight">
-            Direito Premium
+            Leitura Premium
           </h1>
           
           <p className="text-lg md:text-xl text-foreground/80 mb-6">
-            Plataforma jurídica completa para sua aprovação
+            Acesso completo aos melhores livros e e-books
           </p>
         </div>
 
@@ -75,10 +75,10 @@ export const HeroSection = () => {
         >
           <div className="bg-card/90 backdrop-blur-sm rounded-xl p-4 mb-6 border border-border shadow-card max-w-xs mx-auto">
             <div className="flex items-center justify-center gap-2 mb-1">
-              <span className="text-muted-foreground line-through text-sm">R$ 79,90</span>
+              <span className="text-muted-foreground line-through text-sm">R$ 17,99</span>
               <Badge className="bg-destructive text-destructive-foreground text-xs">50% OFF</Badge>
             </div>
-            <div className="text-3xl font-bold text-gold">R$ 39,90</div>
+            <div className="text-3xl font-bold text-gold">R$ 8,99</div>
             <p className="text-xs text-muted-foreground">pagamento único</p>
             <p className="text-xs text-gold font-medium mt-1">🔥 Sem mensalidade!</p>
           </div>

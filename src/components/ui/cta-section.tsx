@@ -23,11 +23,11 @@ export const CTASection = () => {
           </Badge>
           
           <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-premium bg-clip-text text-transparent leading-tight">
-            Garante sua aprovação
+            Acesso ilimitado aos livros
           </h2>
           
           <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-            Mais de 50.000 profissionais já transformaram suas carreiras
+            Mais de 50.000 leitores já transformaram suas vidas
           </p>
         </div>
 
@@ -39,12 +39,12 @@ export const CTASection = () => {
           }`}
         >
           <div className="flex items-center justify-center gap-2 mb-2">
-            <span className="text-xl text-muted-foreground line-through">R$ 79,90</span>
+            <span className="text-xl text-muted-foreground line-through">R$ 17,99</span>
             <Badge className="bg-destructive text-destructive-foreground">
               50% OFF
             </Badge>
           </div>
-          <div className="text-4xl font-bold text-gold mb-1">R$ 39,90</div>
+          <div className="text-4xl font-bold text-gold mb-1">R$ 8,99</div>
           <p className="text-sm text-muted-foreground mb-2">pagamento único</p>
           <p className="text-sm text-gold font-bold mb-2">
             🔥 SEM MENSALIDADE!

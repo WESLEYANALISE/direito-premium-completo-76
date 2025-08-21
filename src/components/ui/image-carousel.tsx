@@ -1,19 +1,17 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { useInView } from "@/hooks/use-in-view";
-import carousel1 from "@/assets/carousel-1.jpg";
-import carousel2 from "@/assets/carousel-2.jpg";
-import carousel3 from "@/assets/carousel-3.jpg";
-import carousel4 from "@/assets/carousel-4.jpg";
-import carousel5 from "@/assets/carousel-5.jpg";
-import carousel6 from "@/assets/carousel-6.jpg";
+import book1 from "@/assets/book-1.jpg";
+import book2 from "@/assets/book-2.jpg";
+import book3 from "@/assets/book-3.jpg";
+import book4 from "@/assets/book-4.jpg";
+import book5 from "@/assets/book-5.jpg";
 
 const carouselImages = [
-  { src: carousel1, alt: "Estudante de direito estudando em biblioteca" },
-  { src: carousel2, alt: "Advogado profissional em escritório moderno" },
-  { src: carousel3, alt: "Biblioteca jurídica com estudantes em grupo" },
-  { src: carousel4, alt: "Advogada trabalhando em escritório elegante" },
-  { src: carousel5, alt: "Grupo de estudantes de direito estudando" },
-  { src: carousel6, alt: "Advogado sênior em reunião corporativa" },
+  { src: book1, alt: "Capa do livro - Romance bestseller" },
+  { src: book2, alt: "Capa do livro - Literatura clássica" },
+  { src: book3, alt: "Capa do livro - Ficção contemporânea" },
+  { src: book4, alt: "Capa do livro - Thriller e suspense" },
+  { src: book5, alt: "Capa do livro - Romance dramático" },
 ];
 
 export const ImageCarousel = () => {
